@@ -1,2 +1,2 @@
 
-module dttfRawToDigi = DTTFFEDReader { }
+module dttfunpacker = DTTFFEDReader { }

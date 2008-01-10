@@ -1,2 +1,2 @@
 
-module dttfDigiToRaw = DTTFFEDSim { }
+module dttfpacker = DTTFFEDSim { }
