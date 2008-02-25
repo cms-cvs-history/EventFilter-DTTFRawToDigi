@@ -1,2 +1,3 @@
-
-module dttfunpacker = DTTFFEDReader { }
+module dttfunpacker = DTTFFEDReader {
+       InputTag DTTF_FED_Source = source
+}

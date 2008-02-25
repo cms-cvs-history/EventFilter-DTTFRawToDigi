@@ -1,2 +1,4 @@
-
-module dttfpacker = DTTFFEDSim { }
+module dttfpacker = DTTFFEDSim {
+       InputTag DTDigi_Source   = l1DTTPGEmulDigis
+       InputTag DTTracks_Source = l1DttfEmulDigis:DTTF
+}
