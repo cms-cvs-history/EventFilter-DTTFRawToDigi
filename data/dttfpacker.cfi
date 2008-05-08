@@ -1,4 +1,4 @@
 module dttfpacker = DTTFFEDSim {
-       InputTag DTDigi_Source   = dtTriggerPrimitiveDigis
-       InputTag DTTracks_Source = dttfDigis:DTTF
+       InputTag DTDigi_Source   = simDtTriggerPrimitiveDigis
+       InputTag DTTracks_Source = simDttfDigis:DTTF
 }
