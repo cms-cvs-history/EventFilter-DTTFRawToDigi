@@ -1,4 +1,4 @@
-module dttfpacker = DTTFFEDSim {
-       InputTag DTDigi_Source   = simDtTriggerPrimitiveDigis
-       InputTag DTTracks_Source = simDttfDigis:DTTF
+module dttfunpacker = DTTFFEDReader {
+       InputTag DTTF_FED_Source = source
+       untracked bool verbose = false
 }
